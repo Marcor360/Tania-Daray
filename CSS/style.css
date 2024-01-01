@@ -1,0 +1,91 @@
+:root {
+    ---Letra: 'Lobster', sans-serif;
+    ---Letra2: 'Oleo Script', sans-serif;
+    ---Letra3: 'Sansita Swashed', sans-serif;
+    ---Rosa: rgb(250, 219, 216);
+    ---Rosa2: rgb(245, 183, 177);
+    ---Blanco: #ffff;
+    ---Negro: #000000;
+}
+
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*Hace que los rems sena iguales a 10 pixeles*/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(---Letra);
+    color: var(---Blanco);
+}
+
+body {
+    background: var(---Rosa2);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/*Tamaño de letras*/
+
+h1 {
+    font-size: 8rem;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+/*Enlaces*/
+a {
+    color: #2471A3;
+    text-decoration: none;
+}
+
+a::after {
+    color: #2471A3;
+    text-decoration: none;
+}
+
+.Span {
+    color: #000000;
+}
+
+.No-margin-pading {
+    margin: 0;
+    padding: 0;
+}
+
+/*Cuerpo*/
+.Conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Conte {
+    text-align: center;
+    max-width: 140rem;
+    margin: 0 auto;
+}
+
+.Sombras {
+    -webkit-box-shadow: 10px 10px 15px 12px rgba(253, 237, 236, 1);
+    -moz-box-shadow: 10px 10px 15px 12px rgba(253, 237, 236, 1);
+    box-shadow: 10px 10px 15px 12px rgba(253, 237, 236, 1);
+}
