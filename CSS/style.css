@@ -1,6 +1,6 @@
 :root {
-    ---Letra: 'Lobster', sans-serif;
-    ---Letra2: 'Oleo Script', sans-serif;
+    ---Letra: 'Salsa', cursive;
+    ---Letra2: 'Lemon', serif;
     ---Letra3: 'Sansita Swashed', sans-serif;
     ---Rosa: rgb(250, 219, 216);
     ---Rosa2: rgb(245, 183, 177);
@@ -88,4 +88,29 @@ a::after {
     -webkit-box-shadow: 10px 10px 15px 12px rgba(253, 237, 236, 1);
     -moz-box-shadow: 10px 10px 15px 12px rgba(253, 237, 236, 1);
     box-shadow: 10px 10px 15px 12px rgba(253, 237, 236, 1);
+}
+
+@media (min-width: 540px) {
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: var(---Letra2);
+    }
+}
+
+@media (max-width:500px) {
+    .Mono1 {
+        font-size: 3rem;
+    }
+}
+
+/*Boton*/
+.cont {
+    margin: 20rem 0;
+}
+
+.Boton {
+    padding: 1rem 1rem;
 }
