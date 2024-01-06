@@ -61,6 +61,10 @@ a::after {
     text-decoration: none;
 }
 
+a:focus {
+    color: #3498DB;
+}
+
 .Span {
     color: #000000;
 }
