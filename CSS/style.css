@@ -136,13 +136,14 @@ a:focus {
 
 .Tex-Boton {
     color: var(---Blanco);
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: var(---Letra2);
 }
 
 @media (max-width: 500px) {
     .Tex-Boton {
         font-size: var(---Letra);
+        font-size: 4rem;
     }
 }
 
