@@ -6,6 +6,7 @@
     ---Rosa2: rgb(245, 183, 177);
     ---Blanco: #ffff;
     ---Negro: #000000;
+    ---Color-Letra: #FDFEFE;
 }
 
 
@@ -83,9 +84,14 @@ a:focus {
 }
 
 .Conte {
+    background-color: var(---Rosa);
     text-align: center;
     max-width: 140rem;
     margin: 0 auto;
+}
+
+.Text {
+    color: var(---Color-Letra);
 }
 
 .Sombras {
@@ -117,4 +123,33 @@ a:focus {
 
 .Boton {
     padding: 1rem 1rem;
+    border-radius: 10px;
+    background-color: var(---Rosa2);
+    border-color: transparent;
+
+}
+
+.Boton:hover {
+    background-color: var(---Rosa);
+    transition: background-color .1s ease;
+}
+
+.Tex-Boton {
+    color: var(---Blanco);
+    font-size: 4rem;
+    font-family: var(---Letra2);
+}
+
+@media (max-width: 500px) {
+    .Tex-Boton {
+        font-size: var(---Letra);
+    }
+}
+
+.Tex-Boton:focus {
+    color: beige;
+}
+
+.Tex-Boton:visited {
+    color: var(---Blanco);
 }
